@@ -1283,6 +1283,7 @@ select {
 
 .cards-section .intro {
   margin: 0 auto;
+  margin-left: 20px;
   margin-bottom: 60px;
   color: #616670;
 }

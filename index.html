@@ -74,28 +74,24 @@
                         <span class="text-bold">Practical Zero-Shot Sketch-based Image Retrieval</span>
                     </h1>
                 </div><!--//branding-->
-                <div class="tagline">
-                    <table style="width:100%">
-                        <tr>
-                            <th><p class=text-highlight>Sounak Dey*, Pau Riba*, Anjan Dutta, Josep Lladós</p></th>
-                            <th><p class=text-highlight>Yi-Zhe Song</p></th>
-                        </tr>
-                        <tr>
-                            <th><p>Computer Vision Center, UAB</p></th>
-                            <th><p>SketchX, QMUL</p></th>
-                        </tr>
-                        <tr>
-                            <th><p>{sdey, priba, adutta, josep}@cvc.uab.cat</th>
-                            <th><p>yizhe.song@qmul.ac.uk</p></th>
-                        </tr>
-                    </table>
+                <div style="width: 100%; overflow: hidden;">
+                    <div class="tagline pull-left" style="float: left;">
+                        <p class=text-highlight>Sounak Dey*, Pau Riba*, Anjan Dutta, Josep Lladós</p>
+                        <p>Computer Vision Center, UAB</p>
+                        <p>{sdey, priba, adutta, josep}@cvc.uab.cat</p>
+                    </div>
+                    <div class="tagline pull-right">
+                        <p class=text-highlight>Yi-Zhe Song</p>
+                        <p>SketchX, QMUL</p>
+                        <p>yizhe.song@qmul.ac.uk</p>
+                    </div>
                 </div><!--//tagline-->
                 <br>
                 <br>
                 <div class="social-container">
 	                <!-- Replace with your Github Button -->
 	                <div class="github-btn mb-2">
-						<a class="github-button" href="https://github.com/" data-size="large" aria-label="Star sounakdey/doodle2search on GitHub">Star</a>
+						<a class="github-button" href="https://github.com/" data-size="large" aria-label="Star sounakdey/doodle2search on GitHub">Star</a>&nbsp;&nbsp;
                         <a class="github-button" href="https://github.com/" data-size="large" aria-label="Doodle2Search code on GitHub">Code</a>
 	                </div>
                  </div><!--//social-container-->
@@ -104,17 +100,36 @@
         
         <section class="cards-section text-center">
             <div class="container">
-                <h2 class="title">View Paper</h2>
                 <div class="intro">
-                    <table style="width:100%">
-                        <tr>
-                            <th><h2 class="title">Abstract</h2>
-                            <p class="text-left">In this paper, we investigate the problem of zero-shot sketch-based image retrieval (ZS-SBIR), where human sketches are used as queries to conduct retrieval of photos from unseen categories. We importantly advance prior arts by proposing a novel ZS-SBIR scenario that represents a firm step forward in its practical application. The new setting uniquely recognizes two important yet often neglected challenges of practical ZS-SBIR, (i) the large domain gap between amateur sketch and photo, and (ii) the necessity for moving towards large-scale retrieval. We first contribute to the community a novel ZS-SBIR dataset, QuickDraw-Extended, that consists of $330,000$ sketches and $204,000$ photos spanning across 110 categories. Highly abstract amateur human sketches are purposefully sourced to maximize the domain gap, instead of ones included in existing datasets that can often be semi-photorealistic. We then formulate a ZS-SBIR framework to jointly model sketches and photos into a common embedding space. A novel strategy to mine the mutual information among domains is specifically engineered to alleviate the domain gap. External semantic knowledge is further embedded to aid semantic transfer. We show that, rather surprisingly, retrieval performance significantly outperforms that of state-of-the-art on existing datasets that can already be achieved using a reduced version of our model. We further demonstrate the superior performance of our full model by comparing with a number of alternatives on the newly proposed dataset.</p></th>
-                            <th><h2 class="title">Download Paper</h2>
-                            <a href="paper.pdf"> <img src="assets/images/paper_preview.png"/></a></th>
-                        </tr>
-                    </table>
+                    <h2 class="title">Abstract</h2>
+                    <p class="text-center">In this paper, we investigate the problem of zero-shot sketch-based image retrieval (ZS-SBIR), where human sketches are used as queries to conduct retrieval of photos from unseen categories. We importantly advance prior arts by proposing a novel ZS-SBIR scenario that represents a firm step forward in its practical application. The new setting uniquely recognizes two important yet often neglected challenges of practical ZS-SBIR, (i) the large domain gap between amateur sketch and photo, and (ii) the necessity for moving towards large-scale retrieval. We first contribute to the community a novel ZS-SBIR dataset, QuickDraw-Extended, that consists of $330,000$ sketches and $204,000$ photos spanning across 110 categories. Highly abstract amateur human sketches are purposefully sourced to maximize the domain gap, instead of ones included in existing datasets that can often be semi-photorealistic. We then formulate a ZS-SBIR framework to jointly model sketches and photos into a common embedding space. A novel strategy to mine the mutual information among domains is specifically engineered to alleviate the domain gap. External semantic knowledge is further embedded to aid semantic transfer. We show that, rather surprisingly, retrieval performance significantly outperforms that of state-of-the-art on existing datasets that can already be achieved using a reduced version of our model. We further demonstrate the superior performance of our full model by comparing with a number of alternatives on the newly proposed dataset.</p>
                 </div><!--//intro-->
+                <div class="d-flex justify-content-between row">
+                    <div class="column" style="text-align: left">
+                        <div class="intro">
+                            <h2 class="title" style="text-align: center">BibTex</h2>
+                            <br>
+                            <pre class="text-left">
+
+@article{dey2019zssbir,
+    author={Dey, Sounak and Riba, Pau and Dutta, Anjan
+    and Lladós, Josep and Song, Yi-Zhe},
+    title={Doodle To Search: Practical Zero-Shot 
+    Sketch-based Image Retrieval},
+    journal={International Conference on Computer Vision
+    and Pattern Recognition (CVPR)},
+    year={2019},
+}
+                            </pre>
+                        </div><!--//intro-->
+                    </div>
+                    <div class="column" style="text-align: right">
+                        <div class="intro">
+                            <h2 class="title" style="text-align: center">Download Paper</h2>
+                            <a style="text-align: right" href="paper.pdf"><img src="assets/images/paper_preview.png"/></a>
+                        </div><!--//intro-->
+                    </div>
+                </div">
                 <div id="cards-wrapper" class="cards-wrapper row">
                     <div class="item item-green col-lg-4 col-6">
                         <div class="item-inner">

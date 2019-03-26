@@ -1431,7 +1431,11 @@ select {
 
 pre {
   display: block;
-  padding: 8.5px;
+  /*padding: 8.5px; */
+  padding-top: 8.5px;
+  padding-right: 1.5px;
+  padding-bottom: 8.5px;
+  padding-left: 8.5px;
   margin: 0 0 9px;
   font-size: 12px;
   line-height: 18px;

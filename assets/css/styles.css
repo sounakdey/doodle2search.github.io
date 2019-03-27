@@ -1290,6 +1290,7 @@ select {
 
 .cards-section .cards-wrapper {
   max-width: 860px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
